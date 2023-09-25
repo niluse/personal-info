@@ -1,0 +1,34 @@
+*{
+    color: white;
+}
+body{
+    background-color: gray;
+}
+main{
+    background-color: white;
+    width: 650px;
+    height: 470px;
+    border: 1px solid black;
+    /* margin: auto;
+    margin-top: 150px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+}
+.step{
+    width: 270px;
+    height: 430px;
+    background-image: url(./img/bg-sidebar-desktop.svg);
+    background-position: center center;
+    border-radius: 10%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+main .step-page ul li{
+    color: white;
+    
+}
