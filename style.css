@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     color: white;
+    font-family: 'Lato', sans-serif;
 }
 body{
     background-color: gray;
@@ -28,7 +30,12 @@ main{
     left: 25%;
     transform: translate(-50%, -50%);
 }
-main .step-page ul li{
+main .step ul li {
     color: white;
-    
+    font-size: 10px;
+    line-height: 20px;
+    list-style-type: none;
+}
+main .step ul li span{
+    color: #B4B4B3;
 }
