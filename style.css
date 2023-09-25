@@ -29,13 +29,79 @@ main{
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
+    /* display: flex; */
 }
 main .step ul li {
     color: white;
     font-size: 10px;
     line-height: 20px;
     list-style-type: none;
+    margin-left: 10px;
 }
 main .step ul li span{
     color: #B4B4B3;
 }
+/* .number li{
+    margin: 5px 0 40px;
+} */
+.step ul li div{
+    display: inline-block;
+}
+main .step ul li .number1{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 8%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+}
+main .step ul li .number2{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 22%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+}
+main .step ul li .number3{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 36%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+}
+main .step ul li .number4{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 49%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+}
+main .step ul li .number{
+    border:  1px solid white;
+}
+main .step ul li .number:hover{
+    background-color: blueviolet;
+}
+
+/* .step ul li .number{
+    padding: 0.3rem .7rem;
+    margin-right: .3rem;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 50%;
+} */
