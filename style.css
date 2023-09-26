@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
-    color: white;
     font-family: 'Lato', sans-serif;
 }
 body{
@@ -98,6 +97,13 @@ main .step ul li .number:hover{
     background-color: blueviolet;
 }
 
+.info{
+    width: 320px;
+    height: 430px;
+    margin-left: 330px;
+    margin-top: 23px;
+    border: 1px solid red;
+}
 /* .step ul li .number{
     padding: 0.3rem .7rem;
     margin-right: .3rem;
